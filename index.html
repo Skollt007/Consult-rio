@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Consultório</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="divSuperior">
+            <input type="button" id="buttonForm" value="+Adicionar">
+            Consultório Odontológico
+        </div>
+            <div id="idForm">
+                <input type="button" id="buttonVoltar" value="&#10006;"><br>
+                <legend id='id_Legend'>Cadastre Cliente</legend><br>
+                    Nome: <input type="text" id="id_NomeUsuario" class="botoesForm" maxlength="80"><br>
+                    Data: <input type="datetime-local" id="id_Data" class="botoesForm"><br>
+                    Descrição: <textarea id="id_Descricao" rows="5" cols="30" maxlength="150"></textarea><br>
+                <input type="button" id="buttonCadastro" value="Cadastro">  
+            </div>
+        <div id="divAgenda"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
